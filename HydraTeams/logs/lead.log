@@ -1,0 +1,12 @@
+[20:47:49] #  1 → qwen-3-235b-a22b-instruct-2507
+  model=qwen-3-235b-a22b-instruct-2507 msgs=1 tools=1 stream=true marker=false teammate=false
+  system=1067 chars
+
+[20:47:50] ERROR: OpenAI 401: {"message":"Wrong API Key","type":"invalid_request_error","param":"api_key","code":"wrong_api_key"}
+
+[20:48:21] #  2 → qwen-3-235b-a22b-instruct-2507
+  model=qwen-3-235b-a22b-instruct-2507 msgs=1 tools=1 stream=true marker=false teammate=false
+  system=1067 chars
+
+[20:48:21] ERROR: OpenAI 401: {"message":"Wrong API Key","type":"invalid_request_error","param":"api_key","code":"wrong_api_key"}
+

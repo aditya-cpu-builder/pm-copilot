@@ -1,0 +1,17 @@
+# Ignore dependency scanning overhead
+node_modules/
+
+# Ignore environment variables completely
+.env
+.env.local
+.env.*
+
+# Ignore outputs
+dist/
+out/
+build/
+
+# Ignore Workspace output tests
+workspace/prds/
+workspace/strategy/
+workspace/.pm-copilot/sessions/

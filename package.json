@@ -1,0 +1,66 @@
+{
+  "name": "pm-copilot",
+  "displayName": "PM Copilot",
+  "description": "AI Assistant for Product Managers",
+  "version": "1.0.0",
+  "icon": "media/icon.png",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "AI",
+    "Chat"
+  ],
+  "activationEvents": [],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "pm-copilot-sidebar",
+          "title": "PM Copilot",
+          "icon": "media/icon.png"
+        }
+      ]
+    },
+    "views": {
+      "pm-copilot-sidebar": [
+        {
+          "type": "webview",
+          "id": "pm-copilot.chatView",
+          "name": "Chat"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "pm-copilot.start",
+        "title": "Start PM Copilot"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "vscode:prepublish": "npm run build",
+    "build": "tsup src/extension.ts --format cjs --external vscode",
+    "watch": "tsup src/extension.ts --format cjs --external vscode --watch"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-code": "^2.1.81",
+    "@anthropic-ai/sdk": "^0.80.0",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@hatcloud/linear-mcp": "^1.1.1",
+    "@keeponfirst/kof-stitch-mcp": "^1.3.0",
+    "@types/node": "^25.5.0",
+    "@types/vscode": "^1.80.0",
+    "coda-mcp": "^1.7.0",
+    "mcp-figma": "^0.1.1",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

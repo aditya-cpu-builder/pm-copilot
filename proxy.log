@@ -1,0 +1,37 @@
+
+[1mHydraTeams Proxy[0m
+[2m────────────────────────────────────────[0m
+  Port:        [36m:3456[0m
+  Target:      [33mqwen-3-235b-a22b-instruct-2507[0m (openai)
+  Spoof:       claude-sonnet-4-5-20250929
+  Passthrough: none
+  Logs:        /Users/branch/Desktop/PM Copilot/logs/
+[2m────────────────────────────────────────[0m
+
+
+╔══════════════════════════════════════════╗
+║           HydraProxy v0.1.0              ║
+╠══════════════════════════════════════════╣
+║  Port:        3456                       ║
+║  Target:      qwen-3-235b-a22b-instruct-2507║
+║  Spoofing as: claude-sonnet-4-5-20250929 ║
+║  Passthrough: none                       ║
+╚══════════════════════════════════════════╝
+
+Ready. Set ANTHROPIC_BASE_URL=http://localhost:3456 on teammate processes.
+
+
+[36m[1m● LEAD connected[0m [2m(lead, → lead.log)[0m
+
+[36m[LEAD      ][0m [2m17:33:41[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 1 tools, #  1)[0m
+[36m[LEAD      ][0m [2m17:33:50[0m → qwen-3-235b-a22b-instruct-2507 [2m(3 msgs, 1 tools, #  2)[0m
+[36m[LEAD      ][0m [2m17:33:51[0m → qwen-3-235b-a22b-instruct-2507 [2m(5 msgs, 1 tools, #  3)[0m
+[36m[LEAD      ][0m [2m17:33:52[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 4 tools, #  4)[0m
+[36m[LEAD      ][0m [2m17:34:14[0m → qwen-3-235b-a22b-instruct-2507 [2m(5 msgs, 1 tools, #  5)[0m
+[36m[LEAD      ][0m [2m17:34:15[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 4 tools, #  6)[0m
+[36m[LEAD      ][0m [2m17:34:35[0m → qwen-3-235b-a22b-instruct-2507 [2m(7 msgs, 1 tools, #  7)[0m
+[36m[LEAD      ][0m [2m17:34:38[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 4 tools, #  8)[0m
+[36m[LEAD      ][0m [2m17:41:26[0m → qwen-3-235b-a22b-instruct-2507 [2m(9 msgs, 1 tools, #  9)[0m
+[36m[LEAD      ][0m [2m17:41:28[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 4 tools, # 10)[0m
+[36m[LEAD      ][0m [2m17:41:38[0m → qwen-3-235b-a22b-instruct-2507 [2m(11 msgs, 1 tools, # 11)[0m
+[36m[LEAD      ][0m [2m17:41:39[0m → qwen-3-235b-a22b-instruct-2507 [2m(1 msgs, 4 tools, # 12)[0m
